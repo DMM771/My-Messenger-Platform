@@ -1,0 +1,333 @@
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+html body {
+
+    background-color: white;
+}
+
+#app {
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    padding: 1%;
+    left: 15%;
+    width: 70%;
+    top: 13%;
+}
+
+#button {
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    width: 10%;
+    margin-top: 1%;
+    font-size: 1.3vw;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+#register {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 1.3vw;
+
+}
+
+a {
+    color: cornflowerblue;
+}
+
+.test {
+    font-size: 1.3vw;
+
+}
+
+.big-text {
+    font-size: 1.4vw;
+
+}
+
+.left-menu-limits {
+    position: fixed;
+    width: 29%;
+    height: 96%;
+    border-radius: 25px;
+    /*border: 2px solid rgba(107, 107, 107, 0.31);*/
+    padding: 2%;
+    margin: 1%;
+    background-color: rgba(40, 44, 52, 0.09);
+}
+
+.left-menu {
+    position: initial;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.chat-sec {
+    width: 68%;
+    left: 30%;
+    position: fixed;
+    height: 96%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 25px;
+    padding: 2%;
+    margin: 1%;
+    background-color: rgba(40, 44, 52, 0.09);
+
+}
+
+.chat-nav {
+    text-align: center;
+    height: 7%;
+    background-color: white;
+}
+
+.chat-pic {
+    height: 100%;
+    float: left;
+}
+
+.chat-box {
+    position: fixed;
+    top: 13%;
+    bottom: 9%;
+    width: 66%;
+    padding-right: 2%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.send-sec {
+    position: absolute;
+    bottom: 2px;
+    width: 94%;
+    height: 7%;
+
+}
+
+.send-input {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    right: 0%;
+    background-color: #eaeaea;
+}
+
+.send-bottom {
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.contact-pic {
+    height: 70%;
+    width: 7%;
+    float: left;
+}
+
+.my-search {
+    top: 50%;
+    position: absolute;
+    height: 50%;
+}
+
+
+.lower-left {
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    left: 0;
+    height: 82%;
+    overflow-y: scroll;
+}
+.upper-left {
+    width: 100%;
+    position: inherit;
+    height: 14%;
+}
+.new-contact{
+    background-color: rgba(136, 136, 136, 0);
+    border-color: rgba(136, 136, 136, 0);
+    float: right;
+    height: 60%;
+}
+.date-text {
+    font-size: 0.7vw;
+    float: right;
+}
+.message-peak-text {
+    font-size: 1vw;
+    margin-left: 20%;
+}
+.list-item{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
+.my-photo{
+    position: relative;
+    height: 80%;
+    width: 7%;
+    float: left;
+}
+
+.record-bottom {
+    position: absolute;
+    width: 5%;
+    left: 0%;
+    height: 100%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.file-bottom {
+    position: absolute;
+    width: 5%;
+    left: 5%;
+    height: 100%;
+    border-radius: 0%;
+}
+.modelBackground {
+    z-index: 10000;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+.modelContainer {
+    position: fixed;
+    width: 50%;
+    left: 10%;
+    z-index: 10000;
+}
+.message{
+    padding: 10px 0;
+    --bs-gutter-x: 0rem;
+}
+.message-image{
+    width: 100%;
+}
+.chat-page-background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url("./BackgroundPic.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.log-reg-background {
+    position: fixed;
+    width: 100%;
+    background-image: url("./BackgroundPic.jpg");
+    background-color: #282c34;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#transparent-bubble{
+    background-color: rgba(40, 44, 52, 0.00);
+    border-right: rgba(136, 136, 136, 0);
+    border-left: rgba(136, 136, 136, 0);
+    /*border-bottom: rgba(136, 136, 136, 0.45);*/
+}
+#chatNav{
+    padding-bottom: 2%;
+    background-color: rgba(40, 44, 52, 0.0);
+    border-bottom: 2px solid rgba(107, 107, 107, 0.31);
+}
+#message-border{
+    border-radius: 5px;
+    border: 1px solid rgb(2, 106, 255, 0);
+    background-color: rgba(40, 44, 52, 0.07);
+}
+#transparent-btn{
+
+}
+
+.user-photo{
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+.user-name{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    font-size: 1.4vw;
+
+}
+.last-message-image{
+    position: relative;
+    left: 43%;
+    width: 7%;
+}
+.hide{
+    visibility: hidden;
+}
